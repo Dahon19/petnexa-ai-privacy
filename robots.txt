@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dahon19.github.io/petnexa-ai-privacy/sitemap.xml

@@ -11,6 +11,8 @@ Plain static privacy-policy website for PetNexa AI, with a commercial app-showca
 - `screenshots/`
 - `capture-screenshots.mjs`
 - `app-ads.txt`
+- `robots.txt`
+- `sitemap.xml`
 
 ## Before publishing
 
@@ -25,10 +27,13 @@ Plain static privacy-policy website for PetNexa AI, with a commercial app-showca
    - local backup and restore behavior
    - session-only undo behavior for supported local delete actions
    - Help & Support contact flow and user-exported diagnostics
+   - privacy/data request instructions and support subject lines
    - sync status, notification status, profile completeness, and care guidance shown in the app
    - camera/gallery photos for pet profiles and health-record attachments
-3. Host this folder on a public static host.
-4. Use the final public URL wherever Google Play, app stores, or app metadata require a privacy-policy URL.
+3. Keep `index.html`, `robots.txt`, and `sitemap.xml` using the same canonical production URL.
+4. Refresh screenshots after major mobile UI updates, especially Settings, Help & Support, and onboarding changes.
+5. Host this folder on a public static host.
+6. Use the final public URL wherever Google Play, app stores, or app metadata require a privacy-policy URL.
 
 ## Local preview
 
