@@ -23,6 +23,9 @@ Plain static privacy-policy website for PetNexa AI, with a commercial app-showca
    - AI consultation payloads sent through the Supabase/API proxy to Gemini or Groq
    - rewarded-ad credit handling through Google Mobile Ads
    - local backup and restore behavior
+   - session-only undo behavior for supported local delete actions
+   - Help & Support contact flow and user-exported diagnostics
+   - sync status, notification status, profile completeness, and care guidance shown in the app
    - camera/gallery photos for pet profiles and health-record attachments
 3. Host this folder on a public static host.
 4. Use the final public URL wherever Google Play, app stores, or app metadata require a privacy-policy URL.
