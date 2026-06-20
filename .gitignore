@@ -1,0 +1,13 @@
+# Local preview and browser artifacts
+.tmp-chrome-*/
+.expo-screenshot-server*.log
+screenshots-test.png
+
+# Dependencies and caches
+node_modules/
+*.log
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
